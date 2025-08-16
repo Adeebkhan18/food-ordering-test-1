@@ -73,14 +73,31 @@ const Add = () => {
                     <div className='add-category flex-col'>
                         <p>Product category</p>
                         <select name='category' onChange={onChangeHandler} >
-                            <option value="Salad">Salad</option>
+                            <option value="Maharaja Thali">Maharaja Thali</option>
                             <option value="Rolls">Rolls</option>
-                            <option value="Deserts">Deserts</option>
-                            <option value="Sandwich">Sandwich</option>
-                            <option value="Cake">Cake</option>
-                            <option value="Pure Veg">Pure Veg</option>
-                            <option value="Pasta">Pasta</option>
-                            <option value="Noodles">Noodles</option>
+                            <option value="Sampurna Bhoj">Sampurna Bhoj</option>
+                            <option value="Special Mahabhoj Thali">Special Mahabhoj Thali</option>
+                            <option value="Office Parar Thali">Office Parar Thali</option>
+                            <option value="3 In 1 Meal Tray">3 In 1 Meal Tray</option>
+                            <option value="Mini Thali">Mini Thali</option>
+                            <option value="Luchi Combo">Luchi Combo</option>
+                            <option value="Tandoor By Kasturi">Tandoor By Kasturi</option>
+                            <option value="Tandoorie Breads">Tandoorie Breads</option>
+                            <option value="Starters">Starters</option>
+                            <option value="Rice Items">Rice Items</option>
+                            <option value="Dal">Dal</option>
+                            <option value="Bhaja Bhuji">Bhaja Bhuji</option>
+                            <option value="Kasturi Special Aamish">Kasturi Special Aamish</option>
+                            <option value="Vegetarian Dishes">Vegetarian Dishes</option>
+                            <option value="Dhakai Ghoronar Mansho-r-ranna">Dhakai Ghoronar Mansho-r-ranna</option>
+                            <option value="Dhakai Ghoronar Murgi-r-ranna">Dhakai Ghoronar Murgi-r-ranna</option>
+                            <option value="Dhakai Ghoronar Maacher-r-ranna">Dhakai Ghoronar Maacher-r-ranna</option>
+                            <option value="Dhakai Ghoranar Briyani">Dhakai Ghoranar Briyani</option>
+                            <option value="Paneer Items">Paneer Items</option>
+                            <option value="Breads">Breads</option>
+                            <option value="Kabiraji">Kabiraji</option>
+                            <option value="Salad">Salad</option>
+                            <option value="Desserts">Desserts</option>
                         </select>
                     </div>
                     <div className='add-price flex-col'>

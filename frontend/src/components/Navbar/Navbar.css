@@ -13,13 +13,13 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color: #49557E;
+    color: #ff0000;
     font-size: 18px;
 }
 
 .navbar-menu .active {
     padding-bottom: 2px;
-    border-bottom: 2px solid #49557E;
+    border-bottom: 2px solid #ff0000;
 }
 
 .navbar-right {
@@ -34,10 +34,10 @@ position: relative;
 
 .navbar-search-icon .dot{
     position: absolute;
-    min-width: 10px;
-    min-height: 10px;
-    background-color: #FF4C24;
-    border-radius: 5px;
+    min-width: 15px;
+    min-height: 15px;
+    background-color: #e44b28;
+    border-radius: 10px;
     top: -8px;
     right: -8px;
 }
@@ -45,7 +45,7 @@ position: relative;
 .navbar-right button {
     background: transparent;
     font-size: 16px;
-    color: #49557E;
+    color: #ff0000;
     border: 1px solid #FF4C24;
     padding: 10px 30px;
     border-radius: 50px;

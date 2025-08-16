@@ -10,6 +10,22 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_9.png'
+import menu_10 from './menu_10.png'
+import menu_11 from './menu_11.png'
+import menu_12 from './menu_12.png'
+import menu_13 from './menu_13.png'
+import menu_14 from './menu_14.png'
+import menu_15 from './menu_15.png'
+import menu_16 from './menu_16.png'
+import menu_17 from './menu_17.png'
+import menu_18 from './menu_18.png'
+import menu_19 from './menu_19.png'
+import menu_20 from './menu_20.png'
+import menu_21 from './menu_21.png'
+import menu_22 from './menu_22.png'
+import menu_23 from './menu_23.png'
+import menu_24 from './menu_24.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -88,37 +104,105 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Maharaja Thali",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Sampurna Bhoj",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Special Mahabhoj Thali",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Office Parar Thali",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "3 In 1 Meal Tray",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Mini Thali",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Luchi Combo",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Tandoor By Kasturi",
         menu_image: menu_8
-    }]
+     },
+    {
+        menu_name: "Tandoorie Breads",
+        menu_image: menu_9
+    },
+    {
+        menu_name: "Starters",
+        menu_image: menu_10
+    },
+    {
+        menu_name: "Rice Items",
+        menu_image: menu_11
+    },
+    {
+        menu_name: "Dal",
+        menu_image: menu_12
+    },
+    {
+        menu_name: "Bhaja Bhuji",
+        menu_image: menu_13
+    },
+    {
+        menu_name: "Kasturi Special Aamish",
+        menu_image: menu_14
+    },
+    {
+        menu_name: "Vegetarian Dishes",
+        menu_image: menu_15
+    },
+    {
+        menu_name: "Dhakai Ghoronar Mansho-r-ranna",
+        menu_image: menu_16
+    },
+    {
+        menu_name: "Dhakai Ghoronar Murgi-r-ranna",
+        menu_image: menu_17
+    },
+    {
+        menu_name: "Dhakai Ghoronar Maacher-r-ranna",
+        menu_image: menu_18
+    },
+    {
+        menu_name: "Dhakai Ghoranar Briyani",
+        menu_image: menu_19
+    },
+    {
+        menu_name: "Paneer Items",
+        menu_image: menu_20
+    },
+    {
+        menu_name: "Breads ",
+        menu_image: menu_21
+    },
+    {
+        menu_name: "Kabiraji",
+        menu_image: menu_22
+    },
+    {
+        menu_name: "Salad",
+        menu_image: menu_23
+    },
+    {
+        menu_name: "Desserts",
+        menu_image: menu_24
+    }
+]
+    
+
+    
 
 export const food_list = [
     {

@@ -21,6 +21,16 @@
     display: flex;
     gap: 30px;
 }
+.add-dietary-preference{
+    display: flex;
+    gap: 30px;
+}
+.add-dietary-preference select{
+    margin-top: 5px;
+    max-width: 120px;
+    padding: 10px;
+}
+
 .add-category-price select,.add-category-price input{
     max-width: 120px;
     padding: 10px;

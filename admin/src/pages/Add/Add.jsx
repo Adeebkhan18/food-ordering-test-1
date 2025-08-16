@@ -69,6 +69,15 @@ const Add = () => {
                     <p>Product description</p>
                     <textarea name='description' onChange={onChangeHandler} value={data.description} type="text" rows={6} placeholder='Write content here' required />
                 </div>
+                <div className='add-dietary-preference flex-col'>
+                    <div className = 'add-dietary-preferences-flex-col'>
+                    <p>Veg or Non-Veg</p>
+                    <select name = 'dietary' onChange={onChangeHandler}>
+                        <option value ="Veg">Veg</option>
+                        <option value ="Non-Veg">Non-Veg</option>
+                    </select>
+                    </div> 
+                </div>
                 <div className='add-category-price'>
                     <div className='add-category flex-col'>
                         <p>Product category</p>

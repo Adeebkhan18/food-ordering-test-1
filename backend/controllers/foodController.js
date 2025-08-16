@@ -25,6 +25,7 @@ const addFood = async (req, res) => {
             price: req.body.price,
             category:req.body.category,
             image: image_filename,
+            availability: "available"
         })
 
         await food.save();
@@ -34,6 +35,7 @@ const addFood = async (req, res) => {
         res.json({ success: false, message: "Error" })
     }
 }
+
 
 // delete food
 const removeFood = async (req, res) => {

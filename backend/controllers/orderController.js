@@ -1,6 +1,8 @@
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js"
 import Stripe from "stripe";
+;
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 //config variables
@@ -8,7 +10,9 @@ const currency = "inr";
 const deliveryCharge = 50;
 const frontend_URL = 'http://localhost:5173';
 
-// Placing User Order for Frontend using stripe
+
+
+// Placing User Order for Frontend using 
 const placeOrder = async (req, res) => {
 
     try {
@@ -42,6 +46,8 @@ const placeOrder = async (req, res) => {
             },
             quantity: 1
         })
+
+        
 
         const session = await stripe.checkout.sessions.create({
             success_url: `${frontend_URL}/verify?success=true&orderId=${newOrder._id}`,
